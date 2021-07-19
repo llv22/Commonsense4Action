@@ -1,4 +1,5 @@
-Data for [Commonsense Justification for Action Explanation](http://aclweb.org/anthology/D18-1283) by  Shaohua Yang, Qiaozi Gao, Sari Saba-Sadiya and 
+# Prototype for CAVE
+## Data for [Commonsense Justification for Action Explanation](http://aclweb.org/anthology/D18-1283) by  Shaohua Yang, Qiaozi Gao, Sari Saba-Sadiya and 
 Joyce Y. Chai, EMNLP 2018.
 
 The json file contains the training/validtion/testing samples
@@ -25,6 +26,8 @@ Attribute:
   - normed_obj: normalized object
   - normed_props: normalized properties
   - gd_flag:  evidence flag
+
+## CVAE via torch implementation
 
 ## Citation
 @inproceedings{yang2018commonsense,  
